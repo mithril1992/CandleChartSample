@@ -13,7 +13,7 @@
 		741A593F29D073D9007FD42B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 741A593D29D073D9007FD42B /* Main.storyboard */; };
 		741A594129D073DA007FD42B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 741A594029D073DA007FD42B /* Assets.xcassets */; };
 		741A594429D073DA007FD42B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 741A594229D073DA007FD42B /* LaunchScreen.storyboard */; };
-		741A594D29D0750A007FD42B /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = 741A594C29D0750A007FD42B /* Charts */; };
+		741A595029D085C6007FD42B /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = 741A594F29D085C6007FD42B /* Charts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				741A594D29D0750A007FD42B /* Charts in Frameworks */,
+				741A595029D085C6007FD42B /* Charts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 			);
 			name = CandleChartSample;
 			packageProductDependencies = (
-				741A594C29D0750A007FD42B /* Charts */,
+				741A594F29D085C6007FD42B /* Charts */,
 			);
 			productName = CandleChartSample;
 			productReference = 741A593429D073D9007FD42B /* CandleChartSample.app */;
@@ -117,7 +117,7 @@
 			);
 			mainGroup = 741A592B29D073D9007FD42B;
 			packageReferences = (
-				741A594B29D0750A007FD42B /* XCRemoteSwiftPackageReference "Charts" */,
+				741A594E29D085C6007FD42B /* XCRemoteSwiftPackageReference "Charts" */,
 			);
 			productRefGroup = 741A593529D073D9007FD42B /* Products */;
 			projectDirPath = "";
@@ -366,20 +366,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		741A594B29D0750A007FD42B /* XCRemoteSwiftPackageReference "Charts" */ = {
+		741A594E29D085C6007FD42B /* XCRemoteSwiftPackageReference "Charts" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "http://github.com/danielgindi/Charts";
+			repositoryURL = "https://github.com/mithril1992/Charts";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 4.1.0;
+				branch = fix_candle_chart_data_set_calc_min_max_y;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		741A594C29D0750A007FD42B /* Charts */ = {
+		741A594F29D085C6007FD42B /* Charts */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 741A594B29D0750A007FD42B /* XCRemoteSwiftPackageReference "Charts" */;
+			package = 741A594E29D085C6007FD42B /* XCRemoteSwiftPackageReference "Charts" */;
 			productName = Charts;
 		};
 /* End XCSwiftPackageProductDependency section */
